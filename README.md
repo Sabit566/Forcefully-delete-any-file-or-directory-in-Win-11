@@ -16,16 +16,16 @@ using the file to close.
 5. Try deleting using the file's short name. Sometimes odd characters can cause problems with
    deleting the file. Using the file's "short name" or DOS-compatible name.
  
- 5.1 Type “**dir /x**” for the short name of the file (i.e **FILENA~1.XYZ**)
-     and directory (i.e **FILENA~1**).
+   5.1 Type “**dir /x**” for the short name of the file (i.e **FILENA~1.XYZ**)
+       and directory (i.e **FILENA~1**).
  
- 5.2 **Delete File:** Type “**del FILENA~1.XYZ**” and press Enter. This will attempt to delete the
-     file that you specify. Make sure to include the full name and extension.(Application, zip,
-     image, video etc)
+   5.2 **Delete File:** Type “**del FILENA~1.XYZ**” and press Enter. This will attempt to delete the
+                     file that you specify. Make sure to include the full name and extension.(Application, zip,
+                     image, video etc)
  
- 5.3 **Delete Directory:** Type “rmdir /s directoryName(or FILENA~1)” and press Enter.
-     Sometimes, deleting the folder will allow you to delete the file that it contains. Keep in
-     mind that deleting a folder will delete all of its contents.( Folder type )
+   5.3 **Delete Directory:** Type “rmdir /s directoryName(or FILENA~1)” and press Enter.
+                          Sometimes, deleting the folder will allow you to delete the file that it contains. Keep in
+                          mind that deleting a folder will delete all of its contents.( Folder type )
 
 7. Confirm permanent delete by type **“(Y/N)”** , **Y** -“yes” or **N** -“no”.
 
